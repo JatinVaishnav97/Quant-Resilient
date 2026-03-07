@@ -45,9 +45,7 @@ Such techniques are widely used in **quantitative finance, hedge funds, and fina
 The project follows a modular architecture separating **data processing, quantitative engines, and interface components**.
 
 
-Quant-Resilient
-
-  │
+Quant-Resilient/
   
   ├── frontend/
   
