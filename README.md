@@ -48,8 +48,11 @@ The project follows a modular architecture separating **data processing, quantit
 Quant-Resilient
   │
   ├── frontend/
+  
   │   ├── index.html
+  
   │   ├── profile.html
+  
   │   └── dashboard.html
   │
   ├── data/
