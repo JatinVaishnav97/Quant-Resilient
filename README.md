@@ -46,29 +46,50 @@ The project follows a modular architecture separating **data processing, quantit
 
 
 Quant-Resilient
+
   │
+  
   ├── frontend/
   
-  │   ├── index.html
-  
-  │   ├── profile.html
-  
-  │   └── dashboard.html
   │
+  ├── index.html
+  
+  │
+  ├── profile.html
+  
+  │
+  └── dashboard.html
+  
+  │
+  
   ├── data/
-  │   ├── prices.csv
-  │   └── returns.csv
   │
+  ├── prices.csv
+  │
+  └── returns.csv
+  
+  │
+  
   ├── engine/
-  │   ├── cvar_optimization.py
-  │   ├── get_data.py
-  │   ├── monte_carlo.py
-  │   ├── returns.py
-  │   ├── risk_stats.py
-  │   └── tail_risk.py
   │
+  ├── cvar_optimization.py
+  │
+  ├── get_data.py
+  │
+  ├── monte_carlo.py
+  │
+  ├── returns.py
+  │
+  ├── risk_stats.py
+  │
+  └── tail_risk.py
+  
+  │
+  
   ├── main.py
+  
   ├── requirements.txt
+  
   └── README.md 
 
 
