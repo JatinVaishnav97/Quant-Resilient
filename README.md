@@ -132,6 +132,7 @@ The system relies on several fundamental quantitative finance concepts:
 
 ### Return Modeling
 Asset returns are computed as:
+                                      
                                       r_t = (P_t - P_{t-1}) / P_{t-1}
 
 ### Monte Carlo Simulation
