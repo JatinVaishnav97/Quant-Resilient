@@ -138,6 +138,7 @@ Asset returns are computed as:
 ### Monte Carlo Simulation
 
 Future asset prices are simulated using stochastic processes such as Geometric Brownian Motion:
+                                            
                                             dS = μS dt + σS dW
 
 Where:
@@ -153,6 +154,7 @@ VaR estimates the potential loss over a given time horizon at a specified confid
 ### Conditional Value at Risk (CVaR)
 
 CVaR measures the **expected loss beyond the VaR threshold**, providing a more robust tail-risk metric.
+                                        
                                         CVaR = E[Loss | Loss > VaR]
 
 This approach is widely used in **risk-sensitive portfolio optimization**.
@@ -161,10 +163,13 @@ This approach is widely used in **risk-sensitive portfolio optimization**.
 
 ## Installation
 Clone the repository:
+
 git clone https://github.com/yourusername/quant-resilient.git
+
 cd quant-resilient
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 ---
@@ -172,6 +177,7 @@ pip install -r requirements.txt
 ## Running the Project
 
 Execute the main pipeline:
+
 python main.py
 
 
