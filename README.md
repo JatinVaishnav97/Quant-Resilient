@@ -164,7 +164,7 @@ This approach is widely used in **risk-sensitive portfolio optimization**.
 ## Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/quant-resilient.git
+git clone https://github.com/JatinVaishnav97/Quant-Resilient
 
 cd quant-resilient
 
